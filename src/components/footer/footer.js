@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import { Link } from "react-router-dom";
 import { CURRENT_YEAR } from "../config";
 import "./footer.css";
@@ -11,6 +11,6 @@ const Footer = () => {
       </Link>
       <div className="right">@NBA {CURRENT_YEAR} all rights reserved.</div>
     </div>
-  );
+  ); 
 };
 export default Footer;
